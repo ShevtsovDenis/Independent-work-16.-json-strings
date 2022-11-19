@@ -15,7 +15,7 @@ namespace Информация_о_товаре
             /*2.    Необходимо разработать программу для получения информации о товаре из json-файла.
             Десериализовать файл «Products.json» из задачи 1. Определить название самого дорогого товара.*/
             //инициализируем переменную до чтения
-            string jsonString = String.Empty;//форма заменяет пустые кавычки
+            string jsonString = String.Empty;
             //считываем созданный файл
             using (StreamReader sr = new StreamReader("../../../Products.json"))
             {
